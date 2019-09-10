@@ -1,0 +1,122 @@
+body {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table,
+thead,
+th,
+tr {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+@media (min-width: 43.75em) {
+    h1 {
+        font-size: 2.5em;
+        color: red;
+    }
+}
+
+@media (min-width: 56.25em) {
+    h1 {
+        font-size: 3em;
+        color: green;
+    }
+}
+
+@media (min-width: 81.25em) {
+    h1 {
+        font-size: 3em;
+        color: #666;
+    }
+}
+
+
+/*---- H2 ---------------------------*/
+
+h2 {
+    font-size: 1.625em;
+}
+
+@media (min-width: 43.75em) {
+    h2 {
+        font-size: 2em;
+        color: red;
+    }
+}
+
+@media (min-width: 56.25em) {
+    h2 {
+        font-size: 2.5em;
+        color: green;
+    }
+}
+
+@media (min-width: 81.25em) {
+    h2 {
+        font-size: 2.5em;
+        color: #666;
+    }
+}
+
+
+/*--- H3 ----------------------------*/
+
+h3 {
+    font-size: 1.375em;
+    color: #fff
+}
+
+@media (min-width: 43.75em) {
+    h3 {
+        font-size: 1.5em;
+        color: red;
+    }
+}
+
+@media (min-width: 56.25em) {
+    h3 {
+        font-size: 1.75em;
+        color: green;
+    }
+}
+
+@media (min-width: 81.25em) {
+    h3 {
+        font-size: 1.75em;
+        color: #666;
+    }
+}
+
+
+/* H4 -----------------------------------*/
+
+h4 {
+    font-size: 1.025em;
+    color: #fff
+}
+
+@media (min-width: 43.75em) {
+    h4 {
+        font-size: 1.25em;
+        color: red;
+    }
+}
+
+@media (min-width: 56.25em) {
+    h4 {
+        font-size: 1.55em;
+        color: green;
+    }
+}
+
+@media (min-width: 81.25em) {
+    h4 {
+        font-size: 1.75em;
+        color: #666;
+    }
+}

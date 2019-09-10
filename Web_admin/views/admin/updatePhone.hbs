@@ -1,0 +1,16 @@
+<div class="list-detail">
+    {{#each valueCallBack}}
+        <form action="/{{this.Ma_so}}" method="post">
+            <img src="images/Dien_thoai/{{this.fileImage}}" alt="" class="img-responsive">
+
+            Mã điện thoại :<input type="text" placeholder="{{this.Ma_so}}" id="Ma_so" name="Ma_so"
+                                  value="{{this.Ma_so}}" class="form-control" readonly><br>
+            Tên điện thoại :<input type="text" placeholder="{{this.Ten}}" id="Ten" name="Ten" value="{{this.Ten}}"
+                                   class="form-control"><br>
+            Đơn giá bán :<input type="text" placeholder="{{this.Don_gia_Ban}}" name="donGiaBan"
+                                class="form-control"><br>
+            <button type="submit" class="fa fa-save btn btn-sm btn-outline-primary"> Update</button>
+            <br>
+        </form>
+    {{/each}}
+</div>
