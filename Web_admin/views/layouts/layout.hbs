@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HCMUS Mobile</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/dinh_dang_man_hinh_chinh.css">
+    <link rel="stylesheet" href="stylesheets/site.css">
+    <!--Test-->
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta name="keywords" content="Samsung, LG, Sony Ericsson, Motorola web design"/>
+    <link href='//fonts.googleapis.com/css?family=Londrina+Solid|Coda+Caption:800|Open+Sans' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" href="stylesheets/responsiveslides.css">
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        jQuery(function ($) {
+
+            // Slideshow 1
+            $("#slider1").responsiveSlides({
+                maxwidth: 1600,
+                speed: 500
+            });
+        });
+    </script>
+    <!--Test-->
+    <script src="javascripts/handlebars-v4.0.11.js"></script>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+{{> header}}
+<div class="container">
+    {{{body}}}
+</div>
+
+
+</body>
+</html>

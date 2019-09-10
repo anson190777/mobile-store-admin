@@ -1,0 +1,16 @@
+<div class="list-detail">
+    <h2>Insert New Phone</h2>
+
+    <form name="addPhone" action="/addPhone" method="POST" enctype="multipart/form-data">
+        <input type="text" placeholder="Mã số" name="Ma_so" id="Ma_so" class="form-control"><br>
+        <input type="text" placeholder="Tên điện thoại" name="Ten" class="form-control"><br>
+        <input type="text" placeholder="Đơn giá Nhập" name="Don_gia_Nhap" class="form-control"><br>
+        <input type="file" name="imagePhone" />
+        <select name="typePhone">
+            <option value="ANDROID">ANDROID</option>
+            <option value="IPHONE">IPHONE</option>
+        </select><br>
+        <button type="submit" class="fa fa-save btn btn-sm btn-outline-primary"> Add</button><br>
+    </form>
+
+</div>

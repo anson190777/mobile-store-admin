@@ -1,0 +1,31 @@
+<!-- Table-->
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="chu_dau">Order List</h2>
+    <div class="table-responsive">
+        <table class="table table-condensed table-bordered table-light table-hover">
+            <thead class="thead-dark">
+            <tr class="text-primary">
+                <th>Product</th>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Amount</th>
+                <th>Delivery  Day</th>
+                <th>Total Money</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="text-primary">
+                {{#each  valueCallBack}}
+                    <td>{{this.Ma_so}}</td>
+                    <td>{{this.name}}</td>
+                    <td>{{this.phoneNumber}}</td>
+                    <td>{{this.quantity}}</td>
+                    <td>{{this.deliveryDay}}</td>
+                    <td>{{this.totalMoney}}</td>
+                {{/each}}
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- End Table-->

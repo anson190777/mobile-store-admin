@@ -1,0 +1,174 @@
+/* CSS Document */
+
+@font-face {
+    font-family: font_legend;
+    src: url('../fonts/LegendM54.ttf');
+}
+
+body {
+    font-size: 12px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(http://www.allwhitebackground.com/images/2/2283.jpg) no-repeat;
+    background-attachment: fixed;
+    margin-top: -5px;
+}
+
+table,
+thead,
+th,
+tr {
+    font-size: 1em;
+}
+
+.chu_dau {
+    color: black;
+}
+
+.header {
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    margin: 0px 5px;
+    border: 2px solid black;
+}
+
+iframe {
+    display: block;
+    background: #000;
+    border: 1px solid black;
+    margin-top: -7px;
+    /*
+	height: calc(100vh - 30px);
+	width:100%;
+	*/
+    width: 100%;
+    height: calc(100em);
+}
+
+.menu {
+    color: crimson;
+    padding: 5px 0px;
+    border: 2px solid black;
+
+    margin: 0px 5px;
+}
+
+.menu a {
+    /*margin:5px;*/
+    /*border: 3px outset #F7F2F2;*/
+    border-radius: 10px;
+    border: 2px solid black;
+    background: url(http://www.allwhitebackground.com/images/2/2283.jpg) no-repeat;
+    background-attachment: fixed;
+    width: 100px;
+    font-family: font_legend;
+}
+
+.content {
+    color: crimson;
+    padding: 5px 0px;
+    border: 1px solid black;
+    background-color: #fff;
+    margin: 0px 5px;
+}
+
+.box {
+    /*margin:2px;*/
+    border: 1px solid #7C7C7C;
+    /*padding:2px;*/
+}
+
+.box img {
+    width: 80%;
+}
+
+.footer {
+    padding: 5px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    margin: -6px 5px;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.badge {
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    opacity: 0.8;
+    margin-top: 27px;
+}
+
+.badge-footer {
+    background-color: yellow;
+    color: black;
+    opacity: 0.8;
+    padding-top: 6px;
+    margin-top: 50px;
+    margin-left: 6px;
+    width: 1128px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-family: font_legend;
+}
+
+.list-menu {
+    color: white;
+}
+
+.fooder .row {
+    font-size: 50px;
+}
+
+.fooder .row .list-menu {
+    font-size: 15px;
+    color: white;
+}
+
+.Chu_cuoi {
+    height: 35px;
+    padding-top: 10px;
+
+    padding-left: 820px;
+}
+
+.list-menu-icon {
+    font-size: 30px;
+
+}
+
+.list-menu-icon-2 {
+    font-size: 21px;
+    font-family: font_legend;
+    color: mediumvioletred;
+
+}
+
+.list-phone {
+    width: 1130px;
+    height: 1000px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    margin : 5px;
+    padding: 5px;
+}
+.list-detail {
+    width: 1130px;
+    height: 550px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    margin : 5px;
+    padding: 5px;
+
+}
+.image_site {
+    width: 150px;
+    height: 250px;
+}
+.image-cart {
+    width: 100px;
+    height: 150px;
+}

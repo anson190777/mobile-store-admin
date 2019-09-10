@@ -1,0 +1,15 @@
+<div class="list-phone">
+    {{#each valueCallBack}}
+        <div class="col-xs-12 col-sm-4 col-md-3">
+            <div class="thumbnail" style="height: 320px">
+                <img src="images/Dien_thoai/{{this.fileImage}}" alt="" class="img-responsive image_site" >
+                <div class="caption">
+                    <h4 class="text-primary"><span>{{this.Ten}}</span></h4>
+                    <span class="text-danger">Price: <span>{{this.Don_gia_Ban}}</span>   VND</span><br>
+                    <a href="/{{this.Ma_so}}" class="btn btn-primary">Detail</a>
+                </div>
+            </div>
+        </div>
+
+    {{/each}}
+</div>
